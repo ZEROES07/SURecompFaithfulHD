@@ -1,2 +1,2 @@
+delete mod.ini
 add mod.ini
-
