@@ -1,0 +1,211 @@
+{
+	"Groups": [
+	   {
+		  "Name": "main",
+		  "DisplayName": "Options",
+		  "Elements": [
+  
+				{
+					"Name": "IncludeDir0",
+					"DisplayName": "Sonic",
+					"Description": [
+					"Change Sonic's appearance when using this mod"
+					],
+					"Type": "SonicEnum",
+					"MinValue": null,
+					"MaxValue": null,
+					"DefaultValue": "Faithful HD"
+				},
+				{
+					"Name": "IncludeDir1",
+					"DisplayName": "Werehog",
+					"Description": [
+					"Change the Werehog's appearance when using this mod"
+					],
+					"Type": "WerehogEnum",
+					"MinValue": null,
+					"MaxValue": null,
+					"DefaultValue": "Faithful HD"
+				},
+				{
+					"Name": "IncludeDir2",
+					"DisplayName": "Werehog's Fur",
+					"Description": [
+					"Change the look of the Werehog's fur when using this mod"
+					],
+					"Type": "WerehogFurEnum",
+					"MinValue": null,
+					"MaxValue": null,
+					"DefaultValue": "Faithful HD"
+				},
+				{
+					"Name": "IncludeDir3",
+					"DisplayName": "Super Sonic",
+					"Description": [
+					"Change Super Sonic's appearance when using this mod"
+					],
+					"Type": "SuperEnum",
+					"MinValue": null,
+					"MaxValue": null,
+					"DefaultValue": "Faithful HD"
+				},
+				{
+					"Name": "IncludeDir4",
+					"DisplayName": "Chip",
+					"Description": [
+					"Change Chip's appearance when using this mod"
+					],
+					"Type": "ChipEnum",
+					"MinValue": null,
+					"MaxValue": null,
+					"DefaultValue": "Faithful HD"
+				},
+				{
+					"Name": "IncludeDir5",
+					"DisplayName": "Chip's Bracelet",
+					"Description": [
+					"Change the appearance of Chip's bracelet when using this mod"
+					],
+					"Type": "ChipsBraceletEnum",
+					"MinValue": null,
+					"MaxValue": null,
+					"DefaultValue": "Faithful HD"
+				}
+		  	]
+	   	}
+	],
+	
+	"Enums": {
+ 
+	   "SonicEnum": 
+	   [
+ 
+		  {
+			 "DisplayName": "Faithful HD",
+			 "Value": "sonic",
+			 "Description": [
+				""
+			 ]
+		  },
+ 
+		  {
+			 "DisplayName": "Faithful HD w/Chip's bracelet",
+			 "Value": "sonicBracelet",
+			 "Description": [
+				""
+			 ]
+		  },
+
+		  {
+			"DisplayName": "Vanilla/Other mod",
+			"Value": "dummy",
+			"Description": [
+			   ""
+			]
+		  }
+	   ],
+		"WerehogEnum":
+		[
+			{
+			   "DisplayName": "Faithful HD V1",
+			   "Value": "werehogV1",
+			   "Description": [
+				  "Softer fur at the cost of transparency sorting issues"
+			   ]
+			},
+			{
+				"DisplayName": "Faithful HD V2",
+				"Value": "werehogV2",
+				"Description": [
+				   "Harsher fur without transparency sorting issues"
+				]
+			 },
+			{
+			  "DisplayName": "Vanilla/Other mod",
+			  "Value": "dummy",
+			  "Description": [
+				 ""
+			  ]
+			}
+		],
+		"WerehogFurEnum":
+		[
+			{
+			   "DisplayName": "Faithful HD",
+			   "Value": "werehogFur",
+			   "Description": [
+				  ""
+			   ]
+			},
+			{
+			  "DisplayName": "Vanilla/Other mod",
+			  "Value": "dummy",
+			  "Description": [
+				 ""
+			  ]
+			}
+		],
+		"SuperEnum":
+		[
+ 
+			{
+			   "DisplayName": "Faithful HD",
+			   "Value": "super",
+			   "Description": [
+				  ""
+			   ]
+			},
+   
+			{
+			   "DisplayName": "Faithful HD w/Chip's bracelet",
+			   "Value": "superBracelet",
+			   "Description": [
+				  ""
+			   ]
+			},
+  
+			{
+			  "DisplayName": "Vanilla/Other mod",
+			  "Value": "dummy",
+			  "Description": [
+				 ""
+			  ]
+			}
+		 ],
+		"ChipEnum":
+		[
+			{
+			   "DisplayName": "Faithful HD",
+			   "Value": "chip",
+			   "Description": [
+				  ""
+			   ]
+			},
+			{
+			  "DisplayName": "Vanilla/Other mod",
+			  "Value": "dummy",
+			  "Description": [
+				 ""
+			  ]
+			}
+		],
+		"ChipsBraceletEnum":
+		[
+			{
+			   "DisplayName": "Faithful HD",
+			   "Value": "chipsBracelet",
+			   "Description": [
+				  ""
+			   ]
+			},
+			{
+			  "DisplayName": "Vanilla/Other mod",
+			  "Value": "dummy",
+			  "Description": [
+				 ""
+			  ]
+			}
+		]
+	},
+	"IniFile": "mod.ini"
+ }
